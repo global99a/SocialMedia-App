@@ -26,7 +26,6 @@ mvn install
 mvn spring-boot:run
 Backend runs on http://localhost:8080
 # Mock Database Setup
-
 This project uses a PostgreSQL database for data persistence. Below are the steps to set up the PostgreSQL database, including the necessary configurations and connection details.
 
 ### PostgreSQL Setup
@@ -37,10 +36,12 @@ This project uses a PostgreSQL database for data persistence. Below are the step
 2. **Create a Database**:
    Open your terminal or command prompt and access the PostgreSQL shell:
    psql -U postgres
-3.Update the application.properties or application.yml file in the src/main/resources directory with your PostgreSQL connection details:
-properties
-Copy code
+3.Update the application.properties file in the src/main/resources directory with your PostgreSQL connection details:
+
 spring.datasource.url=jdbc:postgresql://localhost:5432/socialmedia-db
 spring.datasource.username=your_username
 spring.datasource.password=your_password
+
+### Run the Application:
+After setting up the database and updating the configuration, you can run your Spring Boot application. The application will connect to the PostgreSQL database and perform CRUD operations as required.
 
