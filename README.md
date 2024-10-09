@@ -14,10 +14,10 @@ Before you begin, ensure you have the following installed on your system:
 
 ### Backend Installation
 1. **Clone the Repository**:
-   ```bash
+
    git clone https://github.com/global99a/SocialMedia-App.git
-   cd SocialMedia-App/backend
-   Set Up PostgreSQL Database:
+   cd socialmedia
+
 ### Install Backend Dependencies:
 mvn install
 
