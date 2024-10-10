@@ -37,5 +37,5 @@ public class Article {
     @OneToMany(mappedBy = "article")
     private List<Like> likes;
 
-    // Getters and Setters
+   
 }
