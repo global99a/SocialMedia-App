@@ -1,7 +1,7 @@
 # Social Media Application
 
 ## Project Overview
-This Social Media Application allows users to create accounts, log in, post articles, comment on them, like articles, and follow other users. The application is built using Spring Boot for the backend and React for the frontend. It utilizes PostgreSQL as the database to manage user accounts, articles, comments, likes, and user relationships.
+This Social Media Application allows users to create accounts, log in, post articles, comment on them, like articles, and follow other users. The application is built using Spring Boot for the backend. It utilizes PostgreSQL as the database to manage user accounts, articles, comments, likes, and user relationships.
 
 ## Installation Steps
 
@@ -10,13 +10,15 @@ Before you begin, ensure you have the following installed on your system:
 - [Java 11+](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html)
 - [Maven](https://maven.apache.org/)
 - [PostgreSQL](https://www.postgresql.org/download/)
+- [Postman](https://www.postman.com/downloads/)
 
 
 ### Backend Installation
 1. **Clone the Repository**:
 
    git clone https://github.com/global99a/SocialMedia-App.git
-   cd socialmedia
+   cd SocialMedia-App
+
 
 ### Install Backend Dependencies:
 mvn install
@@ -43,5 +45,5 @@ spring.datasource.username=your_username
 spring.datasource.password=your_password
 
 ### Run the Application:
-After setting up the database and updating the configuration, you can run your Spring Boot application. The application will connect to the PostgreSQL database and perform CRUD operations as required.
+After setting up the database and updating the configuration, you can run your Spring Boot application. The application will connect to the PostgreSQL database and perform CRUD operations and test endpoints on postman as required.
 
