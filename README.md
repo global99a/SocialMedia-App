@@ -16,7 +16,7 @@ Before you begin, ensure you have the following installed on your system:
 1. **Clone the Repository**:
 
    git clone https://github.com/global99a/SocialMedia-App.git
-   cd socialmedia
+    cd socialmedia
 
 ### Install Backend Dependencies:
 mvn install
